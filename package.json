@@ -1,0 +1,27 @@
+{
+  "name": "mysql-connect",
+  "version": "1.0.0",
+  "description": "connect mysql databse and set crud operation ",
+    "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NTElissa/Mysql-connect.git"
+  },
+  "keywords": [
+    "level4Sod" 
+  ],
+  "author": "Elissa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NTElissa/Mysql-connect/issues"
+  },
+  "homepage": "https://github.com/NTElissa/Mysql-connect#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "nodemon": "^3.1.7"
+  }
+}
