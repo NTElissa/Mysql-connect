@@ -1,6 +1,6 @@
 import db from "../config/db.js";
 
-// Get all items from the database
+// Get all items
 export const getAllItems = (req, res) => {
     const query = "SELECT * FROM items";
     db.query(query, (err, results) => {
@@ -12,7 +12,7 @@ export const getAllItems = (req, res) => {
     });
 };
 
-// Create a new item in the database
+// Create a new item 
 export const createItem = (req, res) => {
     const { name, description } = req.body;
     const query = "INSERT INTO items (name, description) VALUES (?, ?)";
@@ -24,6 +24,7 @@ export const createItem = (req, res) => {
         res.status(201).send(`Item added with ID: ${results.insertId}`);
     });
 };
+
 
 // Update an existing item
 export const updateItem = (req, res) => {
