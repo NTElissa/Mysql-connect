@@ -2,7 +2,7 @@
   "name": "mysql-connect",
   "version": "1.0.0",
   "description": "connect mysql databse and set crud operation ",
-    "type": "module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon server.js"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/NTElissa/Mysql-connect.git"
   },
   "keywords": [
-    "level4Sod" 
+    "level4Sod"
   ],
   "author": "Elissa",
   "license": "ISC",
@@ -22,6 +22,7 @@
   "dependencies": {
     "express": "^4.21.1",
     "mysql2": "^3.11.4",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "dotenv": "^16.0.3"
   }
 }
